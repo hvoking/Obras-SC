@@ -1,8 +1,10 @@
 // App imports
-import { Arrow } from './arrow';
+import { MapContainer } from './maps';
+import { Right } from './right';
+import { Wrapper } from './wrapper';
 import './styles.scss';
 
-export const Wrapper = ({children}: any) => {
+export const Main = () => {
 	let vh = window.innerHeight * 0.01;
 	document.documentElement.style.setProperty('--vh', `${vh}px`);
 
@@ -12,10 +14,13 @@ export const Wrapper = ({children}: any) => {
 	});
 
 	return (
-		<div className="wrapper">
-			{children}
-		</div>
+		<Wrapper>
+			<div className="mapas-wrapper">
+				<MapContainer/>
+				<Right/>
+			</div>
+		</Wrapper>
 	)
 }
 
-Wrapper.displayName="Wrapper";
+Main.displayName="Main";

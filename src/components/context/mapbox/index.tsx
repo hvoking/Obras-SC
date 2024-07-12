@@ -13,7 +13,7 @@ export const useMapbox = () => {
 }
 
 export const MapboxProvider = ({children}: any) => {
-  const [ currentBasemap, setCurrentBasemap ] = useState("mapbox://styles/mapbox/light-v11");
+  const [ currentBasemap, setCurrentBasemap ] = useState("mapbox://styles/hvoking/clygh6abe01fv01qrd3y0105g");
   const { viewport, setMarker } = useGeo();
 
   const mapRef = useRef<any>();
