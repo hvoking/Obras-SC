@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Obras-SC/static/css/main.72fed69a.css",
+    "main.css": "/Obras-SC/static/css/main.c2a40ec7.css",
     "main.js": "/Obras-SC/static/js/main.bf6b6330.js",
     "static/js/879.86d901db.chunk.js": "/Obras-SC/static/js/879.86d901db.chunk.js",
     "index.html": "/Obras-SC/index.html",
-    "main.72fed69a.css.map": "/Obras-SC/static/css/main.72fed69a.css.map",
+    "main.c2a40ec7.css.map": "/Obras-SC/static/css/main.c2a40ec7.css.map",
     "main.bf6b6330.js.map": "/Obras-SC/static/js/main.bf6b6330.js.map",
     "879.86d901db.chunk.js.map": "/Obras-SC/static/js/879.86d901db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72fed69a.css",
+    "static/css/main.c2a40ec7.css",
     "static/js/main.bf6b6330.js"
   ]
 }
